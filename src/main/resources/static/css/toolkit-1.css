@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+body{
+	
+	background: #e2e2e2 !important;
+	
+	
+	
+	
+} 
+	
+
+	
+	
+
+
+
+.bg-primary{
+	background: #009688 !important;
+}
+
+
+
+
+
+/* ---------Facilities ------------- */
+
+
+
+
+
+.logo{
+	
+	width: 150px;
+	height: 60px;
+	
+}
+
+
+   
+
+
+
+
+.logo-footer{
+width: 200px;
+	height: 100px;	
+}
+
+/* -------footer---------- */
+
+
+
+
+
+
+
+ 
+
+/*-------------------------Toolkits------------------------------*/
+
+
+
+
+/*--------------------------------- Toolkit 1 ---------------------------------------*/
+
+
+.sidebar1{
+	margin-top: 200px;
+}
+
+
+.sidebar{
+	width: 18%;
+	background: white;
+	
+	
+	padding-top: 45px;
+	
+}
+
+.sidebar a{
+	display: block;
+	width: 100%;
+	padding: 10px 25px;
+	color: grey;
+	text-decoration: none;
+	
+}	
+
+.sidebar a:hover{
+background: #e2e2e2;	
+
+}
+
+.sidebar .divider{
+	height: .5px;
+	width: 100%;
+	background:#e2e2e2;
+	margin-top: 20px;
+}
+.content1{
+	margin-left: 20%;
+	margin-top: 0;
+	
+}
+
+@media only screen and (max-width:600px){
+	.sidebar{
+		display: none;
+		width:80% !important;
+		background: white;
+		height: 100vh;
+		position: fixed;
+		padding-top: 20px;
+	}
+	
+	
+	}
+	
+.sidebar .crossBtn{
+	position:absolute;
+	top: 0;
+	right: 35px;
+	font-size: 36px;
+	cursor: pointer;
+}	
+
+
+
+
+
+

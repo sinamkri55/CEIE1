@@ -1,0 +1,54 @@
+<!-- Sidenav -->
+<html>
+	<head>
+		
+	</head>
+	<body>
+<nav id="sidenav-1" data-mdb-sidenav-init class="sidenav" data-mdb-hidden="false">
+  <ul class="sidenav-menu">
+    <li class="sidenav-item">
+      <a class="sidenav-link">
+        <i class="far fa-smile fa-fw me-3"></i><span>Link 1</span></a>
+    </li>
+    <li class="sidenav-item">
+      <a class="sidenav-link"><i class="fas fa-grin fa-fw me-3"></i><span>Category 1</span></a>
+      <ul class="sidenav-collapse show">
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 2</a>
+        </li>
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 3</a>
+        </li>
+      </ul>
+    </li>
+    <li class="sidenav-item">
+      <a class="sidenav-link"><i class="fas fa-grin-wink fa-fw me-3"></i><span>Category
+          2</span></a>
+      <ul class="sidenav-collapse">
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 4</a>
+        </li>
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 5</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<!-- Sidenav -->
+
+<!-- Toggler -->
+<button data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1" data-mdb-button-init
+  data-mdb-ripple-init class="btn btn-primary" aria-controls="#sidenav-1" aria-haspopup="true">
+  <i class="fas fa-bars"></i>
+</button>
+<!-- Toggler -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+    
+</body>
+</html>

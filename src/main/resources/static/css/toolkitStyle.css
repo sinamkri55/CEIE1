@@ -1,0 +1,768 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+body{
+	
+	background: #e2e2e2 !important;
+	
+	
+	
+	
+} 
+	
+
+	
+	
+
+
+
+.bg-primary{
+	background: #009688 !important;
+}
+
+
+
+
+.event-header-sub{
+	
+	width:100%;
+	
+	background:url(../image/Abs-img.jpeg) no-repeat top center;
+	background-size: cover;
+	height:350px;
+	background-position:center;
+	margin-bottom: 50px;
+	position: relative;
+	color:white;
+}
+
+
+ @media(max-width:1200px){
+	.event-header-sub{
+	background:url(../image/Abs-img.jpeg) no-repeat top center;
+	background-size: cover;
+	height:280px;
+	background-position:center;
+	margin-bottom: 30px;
+	position: relative;
+	
+	
+	
+	}
+} 
+
+.events-content{
+	margin-top: 90px;
+	margin-left: 15px;
+	color: white;
+	
+}
+
+@media(max-width:700px){
+	.events-content{
+	margin-top: 50px;
+	margin-left: 15px;
+	}
+	
+} 
+/* ---------Facilities ------------- */
+
+.events h1{
+	color: #009688;
+}
+
+.the-toolkits-line{
+    width: 100px;
+	height: 3px;
+	margin-left: 44.4%;
+	margin-bottom: 8%;
+	background:#ffc800;	
+}
+
+.previous-line-event{
+	width: 100px;
+	height: 3px;
+	margin-left: 36.2%;
+	background:#009688;	
+}
+
+
+.rowr{
+	margin-top: 5%;
+	display:flex;
+	justify-content: space-between;
+	
+}
+
+
+
+.event-date1{
+	width: 30px; float: left;
+	text-align: center;
+}
+
+.event-date2{
+	width: 260px; float: right;
+	text-align: center;
+}
+
+.event-date2 a{
+	color: #353935;
+	
+}
+
+.p-event-date2 a{
+ color: #353935;
+}
+
+
+.event-date1 .line{
+	width: 30px;
+	height: 3px;
+	background: coral;
+}
+.date{
+	color: #009688;
+	font-weight:600;
+	font-size: 15px;
+	
+	margin-top:11px;
+	margin-bottom: 15px;
+	
+	
+}
+
+.p-event-date1{
+	width: 30px; float: left;
+	text-align: center;
+}
+
+.p-event-date2{
+	width: 260px; float: right;
+	text-align: center;
+}
+
+
+.p-event-date1 .p-line{
+	width: 30px;
+	height: 3px;
+	background: #009688;
+}
+
+
+.p-date{
+	color: coral;
+	font-weight:600;
+	font-size: 15px;
+	
+	margin-top:11px;
+	margin-bottom: 15px;
+	
+	
+} 
+.previous-rowr{
+	margin-top: 0%;
+	display:flex;
+	justify-content: space-between;
+}
+
+
+@media(max-width:700px){
+	.rowr{
+	flex-direction: column;
+	}
+	
+} 
+
+@media(max-width:700px){
+	.previous-rowr{
+	flex-direction: column;
+	}
+	
+} 
+
+.events{
+	
+	width:80%;
+	
+	margin:auto;
+	
+	text-align: center;
+	
+	padding-top:50px;
+}
+
+
+ .event-col{
+	
+	flex-basis:31%;
+	
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+	
+} 
+
+.event-col img{
+	width:100%;
+	height: 80%;
+	border-radius: 10px;
+	
+}
+
+.event-col p{
+	padding:0;
+}
+
+.event-col h5{
+	margin-top:16px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+@media(max-width:700px){
+	.up-events{
+	
+	font-size: 30px;
+	
+	}
+	
+	.the-toolkits-line{
+    width: 80px;
+	height: 3px;
+	margin-left: 40%;
+	
+	background:#ffc800;	
+}
+
+
+	
+} 
+
+@media(max-width:700px){
+	.pre-events{
+	
+	font-size: 30px;
+	
+	}
+	
+	.previous-line-event{
+    width: 80px;
+	height: 3px;
+	margin-left: 14%;
+	
+	background:#009688;	
+}
+
+
+	
+} 
+
+.CoCreateFormButton{
+	background-color: #009688;
+	color: #ffffff;
+	padding: 10px;
+	border-style: none;
+}
+
+
+.logo{
+	
+	width: 150px;
+	height: 60px;
+	
+}
+
+
+   
+
+
+
+
+.logo-footer{
+width: 200px;
+	height: 100px;	
+}
+
+/* -------footer---------- */
+
+
+.footer{
+	
+	margin-top: 60px;
+}
+
+.footer .container{
+	
+	max-width:1170px;
+	margin:auto;
+	
+	
+}
+
+.footer-col ul{
+	list-style:none;
+}
+
+.footer{
+	background-color:#24262b;
+	
+}
+
+
+.row-footer{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+
+.footer-col{
+	width:33%;
+	padding: 0 25px;
+	margin-bottom:40px;
+	
+}
+
+.footer-col h6{
+	margin-bottom:25px;
+	margin-top:20px;
+	font-weight:500; 
+	font-size:18px;
+	color:#ffffff;
+	position:relative;
+}
+
+.footer-col h6::before{
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:-10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+
+.footer-col ul li a{
+	font-size:16px;
+	text-transform:capitalize;
+	color:#bbbbbb;
+	text-decoration: none;
+	font-weight:300;
+	
+	transition:all 0.3s ease;
+	
+}
+
+
+
+.footer-col ul li a:hover{
+	color:#ffffff;
+	
+}
+
+.footer-contact{
+  color:#bbbbbb;
+	
+}
+
+.footer-contact:hover{
+	color:#ffffff;
+	
+}
+
+.social-links a:hover{
+	color:#ffffff;
+}
+.footer-col ul li .fa{
+	color:#ffffff;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+	
+		
+}
+
+.social-links a{
+	
+	display:inline-block;
+	height:40px;
+	width:40px;
+	
+	margin-right:10px;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 50%;
+	text-align: center;
+	line-height:40px;
+	color:#ffffff;
+	
+}
+
+.social-links a:hover{
+	color:#24262b;
+	background-color:#ffffff;
+}
+
+
+/* -----Responsive Footer-----  */
+
+@media(max-width:574px){
+	.footer-col{
+	width:100%;
+	margin-bottom:40px;
+	}
+}
+
+.verify-otp{
+	height:80px;
+	margin-top: 80px;
+}
+
+ /* .container2{
+        width: 50px;
+        height: 450px;
+      }
+      @media (max-width:574px){
+        
+        .container2{
+          width: 100%;
+          height: auto;
+        }
+      }  */
+      
+ svg{
+	width: 750px;
+        height: 550px;
+      }
+      @media (max-width:674px){
+        
+        svg{
+          width: 600px;
+          height: auto;
+          margin-left: 5px;
+        }
+} 
+
+/*-------------------------Toolkits------------------------------*/
+
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Distribute images evenly */
+    margin-bottom: 55px;
+}
+
+.image-container {
+    position: relative; /* Needed for image text positioning */
+    
+}
+
+.image-container img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-container .pdf-img{
+	width: 39%;
+	height: auto;
+	
+	
+}
+.text-button{
+	text-align: center;
+	width: 85%;
+}
+
+.text-button-pdf{
+	text-align: center;
+	width: 95%;
+}
+
+.toolkits-button{
+	background-color: #ECECEC; /* Green color */
+  border: 1.3px solid #ffc800; /* Black border */
+  color: black;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 8px 2px;
+  cursor: pointer;
+  border-radius: 7px; /* Rounded corners */
+  width: 283px;
+  font-weight: bold;
+}
+
+.toolkits-button:hover{
+	text-decoration: none;
+	background-color:#ffc800;
+	color: black;
+	font-weight: bold;
+}
+
+@media (max-width:950px){
+	
+	.image-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute images evenly */
+    margin-bottom: 20px;
+    
+}
+
+.image-container .pdf-img{
+	width: 16vw;
+	height: 10vh;
+	
+	
+}
+.image-container img{
+	width: 16vw;
+	height: 10vh;
+}
+}
+
+
+
+
+@media (max-width:1200px){
+.toolkits-button{
+	width: 73%;
+}
+.image-container .pdf-img{
+	width: 36%;
+	height: 34%;
+	
+	
+}
+
+.image-container img{
+	width: 32%;
+	height: 39%;
+	
+	
+	
+}
+}
+
+/*------------------------------------ Welcome --------------------------*/
+
+.welcome-para p{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 18px;
+	font-size: 17px;
+	text-align: left;
+	
+}
+.yellow-underline {
+  width: 10%; /* Adjust width as needed */
+  height: 3px; /* Adjust underline thickness */
+  background-color: #ffc800; /* Set underline color */
+  margin: 0 auto; /* Center the underline horizontally */
+  border: none; /* Remove default border styles */
+  margin-bottom: 5%;
+}
+
+.welcome-para{
+	
+	margin-bottom: 100px;
+	
+}
+
+/*---------------------- The Toolkits Videos-----------------------------------*/
+
+
+
+.video-container {
+  display: flex; /* Arrange videos side-by-side */
+  justify-content: space-between; /* Distribute videos evenly */
+  width: 100%; /* Optional: Set container width */
+  margin: 0 auto; /* Optional: Center container horizontally */
+  
+  flex-wrap: wrap; /* Allow videos to wrap to a second row if needed */
+  margin-bottom: 10%;
+}
+
+.video-wrapper {
+  
+  
+  display: flex; /* Make the wrapper a flex container */
+  flex-direction: column; /* Stack elements vertically */
+  text-align: center; /* Center text content horizontally */
+  align-items: center; /* Center content horizontally within the wrapper */
+  margin: 10px;
+  
+}
+
+.youtube-video {
+  width: 400px; /* Adjust video width as needed */
+  height: 225px; /* Adjust video height as needed */
+}
+
+.video-description{
+	margin: 0;
+	margin-top: 5%;
+	max-width: 300px;
+	color: #24262b;
+	
+	
+}
+
+@media only screen and (max-width:600px){
+	.youtube-video {
+  width: 360px; /* Adjust video width as needed */
+  height: 225px; /* Adjust video height as needed */
+  text-align: center;
+}
+
+}
+
+
+
+h2 {
+  margin-bottom: 5px; /* Add space between title and video */
+}
+
+
+/*--------------------------- Co-Create-Form---------------------------------*/
+
+
+
+.loginform{
+	background-color: white;
+	width: 1000px;
+	
+	padding: 80px 30px;
+	position: absolute;
+	top: -150%;
+	left: 10%;
+	box-shadow: 0px 0px 10px 5px #ccc;
+	transition: 1s;
+	
+	
+}
+.showloginform{
+	top: 12%;
+	height: 190vh;
+}
+.loginform input{
+	width: 60%;
+	height: 40px;
+	margin-bottom: 15px;
+}
+
+.modal-form{
+	position: fixed;
+	overflow-y: hidden;
+}
+
+.modal-form form { /* Target the form element inside the modal */
+  overflow-y: scroll; /* Enable vertical scrolling only within the form */
+  
+  height: 100%; /* Set the form height to 100% of the modal content */
+}
+.loginform textarea{
+	width: 60%;
+	height: 200px;
+	max-height: 300px;
+	margin-bottom: 15px;
+	 overflow-y: auto; /* Enable vertical scrolling in the textarea */
+}
+
+
+
+.loginform span{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: white;
+	background-color: #009688;
+	cursor:pointer;
+	line-height: 35px;
+}
+
+
+
+
+/*--------------------------------- Toolkit 1 ---------------------------------------*/
+
+
+.sidebar1{
+	margin-top: 200px;
+}
+
+
+.sidebar{
+	width: 18%;
+	background: white;
+	
+	
+	padding-top: 45px;
+	
+}
+
+.sidebar a{
+	display: block;
+	width: 100%;
+	padding: 10px 25px;
+	color: grey;
+	text-decoration: none;
+	
+}	
+
+.sidebar a:hover{
+background: #e2e2e2;	
+
+}
+
+.sidebar .divider{
+	height: .5px;
+	width: 100%;
+	background:#e2e2e2;
+	margin-top: 20px;
+}
+.content1{
+	margin-left: 20%;
+	margin-top: 0;
+	
+}
+
+@media only screen and (max-width:600px){
+	.sidebar{
+		display: none;
+		width:80% !important;
+		background: white;
+		height: 100vh;
+		position: fixed;
+		padding-top: 20px;
+	}
+	
+	
+	}
+	
+.sidebar .crossBtn{
+	position:absolute;
+	top: 0;
+	right: 35px;
+	font-size: 36px;
+	cursor: pointer;
+}	
+
+
+
+
+
+

@@ -1,0 +1,336 @@
+svg path{
+	fill: #008080;
+	stroke: beige;
+	stroke-width: 1px;
+}
+
+
+
+svg path:hover{
+	fill: #e91e63;
+	cursor: pointer;
+	transition: 0.6s;
+	
+}
+
+#name{
+	position: absolute;
+	padding: 5px;
+	
+	font-size: 14px;
+	
+	color:black;
+	font-family: "poppins";
+	background-color:darkseagreen;
+	width: fit-content;
+	opacity: 0;
+	border: 3px solid pink;
+	
+}
+
+
+.banner
+{
+	width:100%;
+	height:87vh;
+/*background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../image/Network-img.jpeg);*/
+    background-image:linear-gradient(to right,rgba(62,32,233,0.5),rgba(250,64,64,.5)),url(../image/Network-img.jpeg);
+ background-size:cover;
+	background-position:center;
+	position:relative;
+	color:white; 
+	
+}
+
+
+
+
+.content{
+	
+	margin-top:50px;
+	text-align: center;
+	
+}
+
+.my-card{
+	
+	padding: 20px;
+	background:#ffffFF;
+}
+
+.text-col{
+	
+	color:#008080;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 420px;
+  
+  background-color: white;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+.card{
+	
+	margin-top: 700px;
+}
+
+
+.card-text{
+	color: black;
+}
+
+.card-body{
+	
+	border: 1px solid #9C9C9C;
+}
+
+
+.links{
+	
+	flex:1;
+	text-align:left;
+}
+
+
+
+
+.carousel-caption a{
+	text-decoration: none;
+}
+
+.ctn{
+	display: inline-block;
+	text-decoration: none;
+	padding: 4px 8px;
+	font-size:11px;
+	font-weight:500;
+	background: whitesmoke;
+	border-radius: 30px;
+	color: #009688;
+	margin-bottom: 13px;
+	
+}
+.ctn:hover{
+	color: whitesmoke;
+	background: #009688;
+	text-decoration:none;
+	transition:.5s;
+	
+}
+
+.logo{
+	
+	width: 150px;
+	height: 70px;
+	
+}
+
+.course{
+	
+	width:80%;
+	margin: auto;
+	text-align: center;
+	padding-top:35px;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+
+p{
+	color:#777;
+	font-size:14px;
+	font-weight:300;
+	line-height:22px;
+	padding:10px;
+}
+
+.rowr{
+	margin-top: 5%;
+	display:flex;
+	justify-content: space-between;
+	
+}
+
+.course-col{
+	flex-basis:31%;
+	background: #E6E6FA;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding:20px 12px;
+	box-sizing: border-box;
+	transition:0.5s;
+}
+
+h3{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.course-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+	/* background-color: yellow; */
+}
+
+@media(max-width:700px){
+	.rowr{
+	flex-direction: column;
+	}
+}
+
+
+
+
+
+
+
+/* -------footer---------- */
+
+
+.logo-footer{
+width: 200px;
+	height: 100px;	
+}
+
+
+.footer{
+	
+	margin-top: 60px;
+}
+
+.footer .container{
+	
+	max-width:1170px;
+	margin:auto;
+	
+	
+}
+
+.footer-col ul{
+	list-style:none;
+}
+
+.footer{
+	background-color:#24262b;
+	
+}
+
+
+.row-footer{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+
+.footer-col{
+	width:33%;
+	padding: 0 25px;
+	margin-bottom:40px;
+	
+}
+
+.footer-col h6{
+	margin-bottom:25px;
+	margin-top:20px;
+	font-weight:500; 
+	font-size:18px;
+	color:#ffffff;
+	position:relative;
+}
+
+.footer-col h6::before{
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:-10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+
+.footer-col ul li a{
+	font-size:16px;
+	text-transform:capitalize;
+	color:#bbbbbb;
+	text-decoration: none;
+	font-weight:300;
+	
+	transition:all 0.3s ease;
+	
+}
+
+
+
+.footer-col ul li a:hover{
+	color:#ffffff;
+	
+}
+
+.footer-contact{
+  color:#bbbbbb;
+	
+}
+
+.footer-contact:hover{
+	color:#ffffff;
+	
+}
+
+.social-links a:hover{
+	color:#ffffff;
+}
+.footer-col ul li .fa{
+	color:#ffffff;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+	
+		
+}
+
+.social-links a{
+	
+	display:inline-block;
+	height:40px;
+	width:40px;
+	
+	margin-right:10px;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 50%;
+	text-align: center;
+	line-height:40px;
+	color:#ffffff;
+	
+}
+
+.social-links a:hover{
+	color:#24262b;
+	background-color:#ffffff;
+}
+
+
+/* -----Responsive Footer-----  */
+
+@media(max-width:574px){
+	.footer-col{
+	width:100%;
+	margin-bottom:40px;
+	}
+}
+
+.verify-otp{
+	height:80px;
+	margin-top: 80px;
+}

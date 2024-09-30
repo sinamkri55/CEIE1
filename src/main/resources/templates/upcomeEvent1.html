@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" xmlns: th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" th:href="@{/css/allEventsStyle.css}"/>
+
+
+<!-- Font Awesome -->
+
+<script src="https://kit.fontawesome.com/ce76d9a8e1.js" crossorigin="anonymous"></script>
+
+
+<title>This is upcoming Event1 page</title>
+</head>
+
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white p-md-2">
+    <div class="container">
+  <a class="navbar-brand" th:href="@{/network/}" href="#"><img alt="" src="../image/CEIE-02.png" class="logo"></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle Navbar"> <!-- navigation -->
+    <span class="navbar-toggler-icon my-toggler"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-nav"> <!-- navbarSupportedContent -->
+    <ul class="navbar-nav ml-auto text-uppercase">
+      <li class="nav-item active">
+        <a class="nav-link" th:href="@{/}" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{/about/}" href="#">About</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="https://sinamaccount.shinyapps.io/NetworkShinyApp/">Network</a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Events
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" th:href="@{/events/}" href="">Events</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{/contact/}" href="#">Contact Us</a>
+      </li>
+      
+      <!--<li class="nav-item">
+        <a class="nav-link" th:href="@{/login/}" href="#" tabindex="-1" aria-disabled="true">Login</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{/signup/}" href="#" tabindex="-1" aria-disabled="true">SignUp</a>
+      </li>-->
+    </ul>
+    
+    <!-- This is Search functality -->
+    
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+  </div>
+</nav>
+
+
+<!-- Navbar Ends -->
+
+
+<section class="event-header-sub d-flex align-iteams-center justify-content-flex-start">
+	
+	<div class="events-content"><br><br><br><br>
+		<h2>Artificial Intelligence Conference</h2>
+		
+		
+	</div>
+	
+</section>
+
+
+
+<section class="cta">
+
+</section>
+
+
+<!----------------- Three Events Photo ---------------->
+
+
+
+<section class="facilities">
+      
+      
+   
+        <div class="rowr">
+        
+        
+           <div class="facility-col">
+           
+             <img alt="" src="../image/event-photo-3.png">
+             
+           
+           </div>
+           
+           <div class="facility-col">
+           
+           
+             <img alt="" src="../image/event-photo-1.png">
+            
+           
+           </div>
+           
+           
+           <div class="facility-col">
+           
+               <img alt="" src="../image/event-photo-2.png">
+             
+           </div>
+           
+        </div>
+   </section>
+ 
+ 
+ <!------------------ Describe Event ------------------------>
+ 
+ 
+<section class="descrition">
+	
+	<div class="box-expert Our-Research">
+		               
+		<h5 class="Event-heading">The contribution of Artificial Intelligence to economic development</h5>
+	<p>Africa Business School and the AI movement center are co-hosting an exciting conference on artificial intelligence and its crucial role in economic development. The conference will be hosted by Pr Amal EL FALLAH-SEGHROUCHNI and Pr Agnes GORGE, who are respectively Executive President of the International Center for Artificial Intelligence in Morocco, and Assistant Professor of Business Analytics and Value Networks.
+Professor Agnes Gorge provided an intriguing perspective on the evolution of artificial intelligence by drawing parallels to the industrial revolution, where machines replaced human labor. This ongoing transition brings forth new skills and profound changes in our approaches. Professor Amal El Fallah-Seghrouchni, on the other hand, delved into the history of artificial intelligence and emphasized its impact on productivity across various industries. The integration of AI has paved the way for novel opportunities, enhancing efficiency and profitability.
+We are delighted to have shared these inspiring perspectives during our conference. Artificial intelligence continues to shape our future, and we are committed to staying at the forefront of this revolution.
+	</p>               
+		               
+    </div>
+    
+</section>
+
+
+<section class="next-button">
+      
+      
+   
+        <div class="next-rows">
+        
+        
+           <div class="next-button-col">
+           
+            <!-- <h5><i class="fa-solid fa-less-than less-than">&nbsp;</i>Previous Event</h5>-->
+             
+           
+           </div>
+           
+           <div class="next-button-col">
+           
+           <h5>Next Event&nbsp;<i class="fa-solid fa-greater-than greater-than"></i></h5>
+             
+            
+           
+           </div>
+           
+           
+           
+           
+        </div>
+   </section>
+
+
+
+<!-------------------------   footer ------------------ -->
+<section class="footer">
+ 
+ <!-- <p>Founded in 2016, the Africa Business School at Mohammed VI Polytechnic University (UM6P), aims at becoming a <br>leading business school in Africa focused on research and teaching. The Business School responds to the most <br>crucial challenges facing Africa and the world in general, by being dedicated to the development of <br>future leaders of the continent, through training, research and innovation.</p>
+ <div class="icons"> 
+     <i class="fa fa-facebook"></i>
+     <i class="fa fa-twitter"></i>
+     <i class="fa fa-instagram"></i>
+     <i class="fa fa-linkedin"></i>
+     
+     <p> Made With <i class="fa fa-heart-o"></i> by Africa Business School</p>
+ </div> -->
+<div class="container">
+<div class="row-footer">
+    
+    <div class="footer-col">
+   
+   <ul><br><br><br><br>
+  <li><a><img alt="" src="../image/ceie-1.png" class="logo-footer"</a></li><br>
+  
+        
+      
+  
+   
+   </ul>
+</div>
+    
+    
+    
+    
+    
+    
+   <div class="footer-col">
+   <h6>USEFUL LINKS</h6><br>
+   <ul>
+  
+  <li><a th:href="@{/}" href="#">Home</a></li><br>
+  <li><a th:href="@{/about/}" href="#">About</a></li><br>
+  <li><a href="https://sinamaccount.shinyapps.io/NetworkShinyApp/"> Network</a></li><br>
+  
+  <li><a th:href="@{/contact/}" href="#">Contact</a></li>
+      
+  
+   
+   </ul>
+</div>
+
+<div class="footer-col">
+<h6>CONTACT US</h6><br>
+ <ul>
+  <li class="footer-contact">05 30 43 16 00/01</li><br>
+  <li class="footer-contact">abs.info@um6p.ma</li><br>
+  <li>
+  </li>
+  </ul>
+  <div class="social-links">
+    <a href="https://www.facebook.com/ABS.UM6P" target="_blank"><i class="fa fa-facebook"></i></a>
+     <a href="https://twitter.com/abs_um6p" target="_blank"><i class="fa fa-twitter"></i></a>
+     <a href="https://www.instagram.com/africabusinessschool/" target="_blank"><i class="fa fa-instagram"></i></a>
+     <a href="https://www.linkedin.com/school/um6p-abs/mycompany/verification/" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+     </div>
+     
+  
+   </div>
+   
+   </div>
+   </div>
+
+
+
+</section>
+
+ 
+ 
+ 
+
+
+
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script th:src="@{/js/script.js}"></script>
+    
+    <script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+    
+
+
+
+</body>
+
+</html>
